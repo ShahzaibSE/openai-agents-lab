@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel
 from agents.run import RunConfig
 import os
-import inspect
 
 # Load environment variables from .env file
 load_dotenv()
